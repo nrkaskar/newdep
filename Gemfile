@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
-
-
+# Use ActiveModel has_secure_password
+gem 'bcrypt-ruby', '~> 3.1.5'
+# Use jquery as the JavaScript library
+gem 'jquery-ui-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
